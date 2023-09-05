@@ -7,9 +7,14 @@ void print(string str)
 {
     cout << str << endl;
 }
+int sum(int a, int b)
+{
+    return a + b;
+}
 int main()
 {
     print("Hello world");
+    cout << sum(5 + 7);
     return 0;
 }
 
