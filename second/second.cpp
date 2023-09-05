@@ -18,6 +18,12 @@ void print(int arr[], int size)
     }
     cout << endl;
 }
+void reverse (int arr[],int size)
+{
+    for (int i = size - 1; i >= 0; i--)
+        cout << arr[i] << " ";
+}
+int main()
 {
     int arr[5];
     init(arr, 5);
