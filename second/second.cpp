@@ -10,7 +10,7 @@ void init(int arr[], int size)
         arr[i] = i + 1;
     }
 }
-void print(int arr[], int size)
+void printArr(int arr[], int size)
 {
     for (int i = 0; i < size; i++)
     {
