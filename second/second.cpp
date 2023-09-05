@@ -3,35 +3,16 @@
 
 #include <iostream>
 using namespace std;
-void init(int arr[], int size)
+void func1()
 {
-    for (int i = 0; i < size; i++)
-    {
-        arr[i] = i + 1;
-    }
-}
-void print(int arr[], int size)
-{
-    for (int i = 0; i < size; i++)
-    {
-        cout << arr[i] << ' ';
-    }
-    cout << endl;
-}
-void reverse (int arr[],int size)
-{
-    for (int i = size - 1; i >= 0; i--)
-        cout << arr[i] << " ";
+
 }
 int main()
 {
-    int arr[5];
-    init(arr, 5);
-    print(arr, 5);
     return 0;
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
+// Run pfrogram: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
 // Tips for Getting Started: 
