@@ -3,7 +3,7 @@
 
 #include <iostream>
 using namespace std;
-void init(int arr[], int size)
+void func1()
 {
     for (int i = 0; i < size; i++)
     {
@@ -31,7 +31,7 @@ int main()
     return 0;
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
+// Run pfrogram: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
 // Tips for Getting Started: 
