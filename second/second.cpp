@@ -2,10 +2,15 @@
 //
 
 #include <iostream>
-
+using namespace std;
+void print(string str)
+{
+    cout << str << endl;
+}
 int main()
 {
-    std::cout << "Hello World!\n";
+    print("Hello world");
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
